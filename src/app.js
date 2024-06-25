@@ -4,7 +4,7 @@ const cors = require('cors');
 const router = require('./routes');
 const errorHandler = require('./utils/errorHandler');
 require('dotenv').config();
-
+require('./modelos/index')
 // Esta es nuestra aplicación
 const app = express();
 
